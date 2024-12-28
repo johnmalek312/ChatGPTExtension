@@ -1,5 +1,4 @@
 # Ignore backend for now
-/backend/
 
 # Dependencies
 /frontend/node_modules
@@ -13,7 +12,7 @@
 # Testing
 /frontend/coverage
 
-# Environment files
+# Environment files 
 /frontend/.env
 /frontend/.env.local
 /frontend/.env.development.local
