@@ -1,0 +1,32 @@
+{
+  "name": "chatgpt-pin-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.4",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.3.0",
+    "@mui/material": "^6.3.0",
+    "axios": "^1.6.2",
+    "firebase": "^10.6.0",
+    "framer-motion": "^10.18.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.0.0-beta.19",
+    "@types/node": "^20.9.1",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "watch": "vite build --watch"
+  }
+}

@@ -1,0 +1,57 @@
+# Ignore backend for now
+/backend/
+
+# Dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# Production build
+/frontend/dist
+/frontend/build
+/frontend/package-lock.json
+# Testing
+/frontend/coverage
+
+# Environment files
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+/frontend/.eslintcache
+
+# Vite
+/frontend/*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/ 
